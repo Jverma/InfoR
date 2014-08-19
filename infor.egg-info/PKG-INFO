@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: infor
+Version: 0.20
+Summary: A Python package for Information Retrieval
+Home-page: UNKNOWN
+Author: Janu Verma
+Author-email: jv367@cornell.edu
+License: MIT
+Description: UNKNOWN
+Platform: Linux
+Platform: Mac OSX
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Progamming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Retrieval
+Classifier: Topic :: Scientific/Engineering :: Machine Learning
+Classifier: Topic :: Scientific/Engineering :: Natural Language Processing

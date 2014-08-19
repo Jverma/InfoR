@@ -1,0 +1,1 @@
+Kevin pointed to an excellent situation of the applicability of DM compactification! A more famous application is the mathematical rigorous definition of GromovWitten invariant a la Kontsevich (and Manin).

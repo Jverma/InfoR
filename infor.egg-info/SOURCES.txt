@@ -1,0 +1,11 @@
+setup.py
+InfoR/LanguageModels.py
+InfoR/ProbabilitisticModels.py
+InfoR/VectorSpaceModels.py
+InfoR/__init__.py
+InfoR/Examples/__init__.py
+InfoR/Examples/example.py
+infor.egg-info/PKG-INFO
+infor.egg-info/SOURCES.txt
+infor.egg-info/dependency_links.txt
+infor.egg-info/top_level.txt

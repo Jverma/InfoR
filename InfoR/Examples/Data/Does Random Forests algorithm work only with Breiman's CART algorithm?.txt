@@ -1,0 +1,1 @@
+Surely you can have Random Forest algorithm with C4.5 and many others as the base learner.  Random Forest - Orange Documentation - Orange uses C4.5Random MultiNomial Logit Random Multiclass Classification: Generalizing Random Forests to Random MNL and Random NB
