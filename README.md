@@ -11,6 +11,8 @@ For more information (no pun intended!) on these models see http://nlp.stanford.
 
 <b>Download :</b> https://pypi.python.org/pypi/infor/
 
+<b>Installation :</b> pip install InfoR
+
 <b> Dependencies:</b>
 
 1. numpy
