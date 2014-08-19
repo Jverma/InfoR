@@ -1,0 +1,1 @@
+Some functionality in CRAN - Package twitteR can be used to do market research. Some examples can be found on Page on r-bloggers.com

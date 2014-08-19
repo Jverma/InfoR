@@ -1,0 +1,46 @@
+setup.py
+InfoR/LanguageModels.py
+InfoR/ProbabilisticModels.py
+InfoR/VectorSpaceModels.py
+InfoR/__init__.py
+InfoR/Data/Can I run R script using Google App Engine?.txt
+InfoR/Data/Does Random Forests algorithm work only with Breiman's CART algorithm?.txt
+InfoR/Data/How are computer science and data science similar and different? How are computer science and data science related?.txt
+InfoR/Data/How does Edward Witten know so much math?.txt
+InfoR/Data/How much is a PhD in computational biology worth?.txt
+InfoR/Data/Is it possible to move directly to machine learning research after a PhD in theoretical physics?.txt
+InfoR/Data/Is it too late for a system administrator with over 7 years of professional experience in the field to become a successful software developer? If not, how can this be done?.txt
+InfoR/Data/Is mathematical physics rigorous with proofs or more like applied mathematics?.txt
+InfoR/Data/Is there an R library to analyze tweets for market research?.txt
+InfoR/Data/What are applications of differential geometry in physics, outside of the theory of general relativity?.txt
+InfoR/Data/What are some R packages that data scientist or a statistician should know how to use?.txt
+InfoR/Data/What are some applications of topology in quantum computing?.txt
+InfoR/Data/What are some cool words physicists use?.txt
+InfoR/Data/What are some good introductory references for learning Floer homology?.txt
+InfoR/Data/What are some great films that touch on mentorship?.txt
+InfoR/Data/What are the most widely used R packages?.txt
+InfoR/Data/What are your top 3 must see Bollywood film recommendations?.txt
+InfoR/Data/What do people who drink black coffee think about people who use cream and sugar?.txt
+InfoR/Data/What does it feel like to text while driving?.txt
+InfoR/Data/What is HDF5 data format and what is it used for?.txt
+InfoR/Data/What is the relationship between the Dirac equation and the Klein-Gordon equation?.txt
+InfoR/Data/What is the significance of Mumford and Deligne's work on the irreducibility of moduli spaces?.txt
+InfoR/Data/What is the significance of n-forms?.txt
+InfoR/Data/What is the significance of the (proven) Calabi conjecture?.txt
+InfoR/Data/What is the significance of the Dedekind eta function in theoretical physics?.txt
+InfoR/Data/What is the significance of the Grothendieck-Riemann-Roch theorem?.txt
+InfoR/Data/What is the tangent space to an algebraic variety?.txt
+InfoR/Data/What is your advice for a final year EE undergrad with interest in machine learning and robotics for career?.txt
+InfoR/Data/What is your most compelling reason for drinking coffee?.txt
+InfoR/Data/What jobs can you get with a CS and economics double degree? Is it good combo?.txt
+InfoR/Data/What subject is more challenging, algebraic geometry or string theory?.txt
+InfoR/Data/What's Edward Witten's personality like?.txt
+InfoR/Data/Who are some actors without whom a character played by them cannot be imagined?.txt
+InfoR/Data/Who are the young (under 30 years old) rising stars in mathematics?.txt
+InfoR/Data/Why do people like to sit in cafes drinking coffee and using their computers, rather than just doing that at home?.txt
+InfoR/Examples/__init__.py
+InfoR/Examples/example.py
+infor.egg-info/PKG-INFO
+infor.egg-info/SOURCES.txt
+infor.egg-info/dependency_links.txt
+infor.egg-info/top_level.txt
