@@ -23,17 +23,17 @@ For more information (no pun intended!) on these models see http://nlp.stanford.
 <code>
 from InfoR.VectorSpaceModels import VSM, LanguageModel, ProbModel
 
-# Vector space model
+
 <code>
 out = VSM(corpus)
 out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)
 
-#  Language Model
+
 <code>
 out = LanguageModel(corpus)
 out.search(query, number_of_docs_to_be_returned)
 
-# Prob Model
+
 <code>
 out = ProbModel(corpus)
 out.search(query, number_of_docs_to_be_returned)
