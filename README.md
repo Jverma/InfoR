@@ -25,14 +25,11 @@ from InfoR.VectorSpaceModels import VSM
 from InfoR.LanguageModels import LanguageModel
 from InfoR.ProbabilitisticModels import ProbModel
 
-# Vector space mode
 out = VSM(corpus)
 out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)
-
 #  Language Model
 out = LanguageModel(corpus)
 out.search(query, number_of_docs_to_be_returned)
-
 # Prob Model
 out = ProbModel(corpus)
 out.search(query, number_of_docs_to_be_returned)
