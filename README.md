@@ -24,6 +24,7 @@ For more information (no pun intended!) on these models see http://nlp.stanford.
 from InfoR.VectorSpaceModels import VSM, LanguageModel, ProbModel
 
 vector space mode
+
 <code>
 out = VSM(corpus)
 
@@ -31,6 +32,7 @@ out = VSM(corpus)
 out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)
 
 language model
+
 <code>
 out = LanguageModel(corpus)
 
@@ -38,6 +40,7 @@ out = LanguageModel(corpus)
 out.search(query, number_of_docs_to_be_returned)
 
 probabistic model
+
 <code>
 out = ProbModel(corpus)
 
