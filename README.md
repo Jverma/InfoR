@@ -1,4 +1,4 @@
-InfoR
+Information Retrieval in Python
 =====
 
 InfoR is a Python package for Information Retrieval. It has support for 3 types of retrieval systems : 
@@ -17,6 +17,26 @@ For more information (no pun intended!) on these models see http://nlp.stanford.
 
 1. numpy
 2. sklearn (http://scikit-learn.org/stable/)
+
+<b> Usage:</b>
+
+<code>
+from InfoR.VectorSpaceModels import VSM
+from InfoR.LanguageModels import LanguageModel
+from InfoR.ProbabilitisticModels import ProbModel
+
+# Vector space mode
+out = VSM(corpus)
+out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)
+
+#  Language Model
+out = LanguageModel(corpus)
+out.search(query, number_of_docs_to_be_returned)
+
+# Prob Model
+out = ProbModel(corpus)
+out.search(query, number_of_docs_to_be_returned)
+</code>
 
 
 
