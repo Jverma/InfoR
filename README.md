@@ -21,10 +21,9 @@ For more information (no pun intended!) on these models see http://nlp.stanford.
 <b> Usage:</b>
 
 <code>
-from InfoR.VectorSpaceModels import VSM
-from InfoR.LanguageModels import LanguageModel
-from InfoR.ProbabilitisticModels import ProbModel
+from InfoR.VectorSpaceModels import VSM, LanguageModel, ProbModel
 
+# Vector space model
 out = VSM(corpus)
 out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)
 #  Language Model
