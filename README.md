@@ -26,18 +26,21 @@ from InfoR.VectorSpaceModels import VSM, LanguageModel, ProbModel
 
 <code>
 out = VSM(corpus)
+
 <code>
 out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)
 
 
 <code>
 out = LanguageModel(corpus)
+
 <code>
 out.search(query, number_of_docs_to_be_returned)
 
 
 <code>
 out = ProbModel(corpus)
+
 <code>
 out.search(query, number_of_docs_to_be_returned)
 </code>
