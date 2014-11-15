@@ -1,7 +1,7 @@
 Information Retrieval in Python
 =====
 
-InfoR is a Python package for Information Retrieval. Information retrieval means given a set of (text/html/xml) documents, extract the documents which are most relevant to a seach query. You search engine e.g. Google is a retrieval system. 
+InfoR is a Python package for <a href="http://en.wikipedia.org/wiki/Information_retrieval">Information Retrieval</a>. Information retrieval means given a set of (text/html/xml) documents, extract the documents which are most relevant to a seach query. You search engine e.g. Google is a retrieval system. 
 
 InfoR has support for 3 types of retrieval systems : 
 
@@ -19,8 +19,8 @@ Google uses PageRank algorithm which exploits the hyperlinks in an html document
 
 <b> Dependencies:</b>
 
-1. numpy
-2. sklearn (http://scikit-learn.org/stable/)
+1. <a href="http://www.numpy.org/">numpy</a>
+2. <a href="http://scikit-learn.org/stable/">Scikit-Learn</a>
 
 <b> Usage:</b>
 
