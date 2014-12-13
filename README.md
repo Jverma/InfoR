@@ -22,6 +22,10 @@ Google uses PageRank algorithm which exploits the hyperlinks in an html document
 1. <a href="http://www.numpy.org/">numpy</a>
 2. <a href="http://scikit-learn.org/stable/">Scikit-Learn</a>
 
+
+<b>Documentation:</b>
+https://pythonhosted.org/infor/
+
 <b> Usage:</b>
 
 <code>
