@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Infor by Jverma</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Infor</h1>
+        <p>A python package for Information Retrieval</p>
+
+        <p class="view"><a href="https://github.com/Jverma/InfoR">View the Project on GitHub <small>Jverma/InfoR</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Jverma/InfoR/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Jverma/InfoR/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Jverma/InfoR">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="information-retrieval-in-python" class="anchor" href="#information-retrieval-in-python" aria-hidden="true"><span class="octicon octicon-link"></span></a>Information Retrieval in Python</h1>
+
+<p>InfoR is a Python package for <a href="http://en.wikipedia.org/wiki/Information_retrieval">Information Retrieval</a>. Information retrieval means given a set of (text/html/xml) documents, extract the documents which are most relevant to a seach query. You search engine e.g. Google is a retrieval system. </p>
+
+<p>InfoR has support for 3 types of retrieval systems : </p>
+
+<ol>
+<li>Vector Space Models</li>
+<li>Language Models</li>
+<li>Probabilistic Models</li>
+</ol>
+
+<p>For more information (no pun intended!) on these models see <a href="http://nlp.stanford.edu/IR-book/">http://nlp.stanford.edu/IR-book/</a></p>
+
+<p>Google uses PageRank algorithm which exploits the hyperlinks in an html document. This package currently works only for a corpus of text documents. I'm hoping to add html/xml support also and hopefully include an implementation of PageRank. </p>
+
+<p><b>Download :</b> <a href="https://pypi.python.org/pypi/infor/">https://pypi.python.org/pypi/infor/</a></p>
+
+<p><b>Installation :</b> pip install infor</p>
+
+<p><b> Dependencies:</b></p>
+
+<ol>
+<li><a href="http://www.numpy.org/">numpy</a></li>
+<li><a href="http://scikit-learn.org/stable/">Scikit-Learn</a></li>
+</ol>
+
+<p><b>Documentation:</b>
+<a href="https://pythonhosted.org/infor/">https://pythonhosted.org/infor/</a></p>
+
+<p><b> Usage:</b></p>
+
+<p><code>
+from InfoR.VectorSpaceModels import VSM, LanguageModel, ProbModel</code></p>
+
+<p><b>vector space model</b></p>
+
+<p><code>
+out = VSM(corpus)</code></p>
+
+<p><code>
+out.search(query, number_of_docs_to_be_returned, tf_idf=True, LSA=True, n_comp=3)</code></p>
+
+<p><b>language model</b></p>
+
+<p><code>
+out = LanguageModel(corpus)</code></p>
+
+<p><code>
+out.search(query, number_of_docs_to_be_returned)</code></p>
+
+<p><b>probabilistic model</b></p>
+
+<p><code>
+out = ProbModel(corpus)</code></p>
+
+<p><code>
+out.search(query, number_of_docs_to_be_returned)
+</code></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Jverma">Jverma</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
